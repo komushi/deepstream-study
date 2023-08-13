@@ -170,10 +170,10 @@ enable-past-frame=1
 display-tracking-id=1
 
 [secondary-gie0]
-enable=0
-model-engine-file=../models/Secondary_VehicleTypes/resnet18.caffemodel_b16_gpu0_int8.engine
+enable=1
+model-engine-file=../models/Secondary_VehicleTypes/resnet18.caffemodel_b8_gpu0_fp16.engine
 gpu-id=0
-batch-size=16
+batch-size=8
 gie-unique-id=4
 operate-on-gie-id=1
 operate-on-class-ids=0;
