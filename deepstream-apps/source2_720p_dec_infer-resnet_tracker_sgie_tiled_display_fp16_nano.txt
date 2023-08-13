@@ -190,9 +190,9 @@ operate-on-class-ids=0;
 config-file=config_infer_secondary_carcolor.txt
 
 [secondary-gie2]
-enable=0
-model-engine-file=../models/Secondary_CarMake/resnet18.caffemodel_b16_gpu0_int8.engine
-batch-size=16
+enable=1
+model-engine-file=../models/Secondary_CarMake/resnet18.caffemodel_b8_gpu0_fp16.engine
+batch-size=8
 gpu-id=0
 gie-unique-id=6
 operate-on-gie-id=1
