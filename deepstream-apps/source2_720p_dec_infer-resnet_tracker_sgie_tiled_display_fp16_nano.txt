@@ -124,7 +124,7 @@ batch-size=2
 ##to push the batch even if the complete batch is not formed
 batched-push-timeout=40000
 ## Set muxer output width and height
-width=1920
+width=960
 height=1080
 ##Enable to maintain aspect ratio wrt source, and allow black borders, works
 ##along with width, height properties
