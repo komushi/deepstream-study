@@ -60,7 +60,9 @@ type=5
 sync=1
 source-id=0
 gpu-id=0
+qos=0
 nvbuf-memory-type=0
+overlay-id=1
 
 [sink1]
 enable=0
